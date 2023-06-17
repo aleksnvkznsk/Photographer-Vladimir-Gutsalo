@@ -1,0 +1,109 @@
+.intro {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-image: url(./../public/introPC.jpg);
+
+    &__information {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 1800px;
+        margin: 0 auto;
+        display: flex;
+        margin-bottom: 20px;
+        padding: 0 20px;
+    }
+
+    &__text {
+        margin: 0;
+        color: white;
+        font-size: 47px;
+        font-weight: 700;
+        text-align: left;
+    }
+
+    &__links {
+        flex-direction: column;
+    }
+
+    &__src {
+        text-align: center;
+
+        &__img {
+            margin: 10px;
+        }
+    }
+
+    &__phone {
+        text-align: center;
+    }
+
+    &__room {
+        font-size: 30px;
+        color: black;
+        text-decoration: none;
+    }
+}
+
+@media (max-width: 1400px) {
+
+    .intro__room {
+        font-size: 18px;
+    }
+
+    .intro__src {
+        display: flex;
+        flex-direction: row;
+
+        &__img {
+            width: 30px;
+        }
+    }
+}
+
+@media (max-width: 900px) {
+
+    .intro {
+        animation: none;
+        background-image: url(./../public/introMob.jpg);
+
+        &__information {
+
+            flex-direction: column;
+            height: 100vh;
+            background-size: cover;
+        }
+
+        &__text {
+            margin: auto 20px;
+            font-size: 27px;
+            text-align: center;
+        }
+
+        &__links {
+            display: flex;
+            flex-direction: column;
+            margin: 0 auto;
+        }
+
+        &__src {
+            display: flex;
+            flex-direction: row;
+
+            &__img {
+                width: 50px;
+            }
+        }
+
+        &__room {
+            font-size: 20px;
+        }
+    }
+
+}
