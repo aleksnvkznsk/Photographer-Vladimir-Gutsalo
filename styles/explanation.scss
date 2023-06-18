@@ -1,0 +1,40 @@
+.parallax {
+    background: url(/parallax.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 10px;
+}
+
+.explanation {
+    max-width: 1500px;
+    margin: 0 auto;
+
+    &__text {
+        margin: 30px auto;
+        font-size: 20px;
+        text-indent: 1.5em;
+        text-align: center;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+
+.horizontalline {
+    margin: 0 auto;
+    border: none;
+    background-color: rgb(0, 0, 0);
+    height: 2px;
+}
+
+@media (max-width: 900px) {
+
+    .explanation {
+        margin: 0 auto;
+
+        &__text {
+            font-size: 18px;
+            text-align: center;
+        }
+    }
+}

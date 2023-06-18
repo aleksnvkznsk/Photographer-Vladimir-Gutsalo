@@ -1,0 +1,26 @@
+.end {
+    margin: 50px;
+    text-align: center;
+
+    &__link {
+        width: 40px;
+        margin: 0 10px;
+    }
+}
+
+.end__phone {
+    font-size: 24px;
+    margin: 10px;
+    font-weight: 400;
+}
+
+.aleks {
+    text-align: center;
+    margin: 20px;
+
+    &__href {
+        color: black;
+        font-size: 18px;
+        text-decoration: none;
+    }
+}
