@@ -1,6 +1,7 @@
 import Header from "@/components/header";
 import Intro from "@/components/intro";
 import About from "@/components/about";
+import Portfolio from "@/components/portfolio";
 import Price from "@/components/price";
 import Explanation from "@/components/explanation";
 import Services from "@/components/services";
@@ -12,6 +13,7 @@ export default function Page() {
       <Header />
       <Intro />
       <About />
+      <Portfolio />
       <Price />
       <Explanation />
       <Services />

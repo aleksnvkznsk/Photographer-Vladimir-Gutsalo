@@ -1,0 +1,61 @@
+.content {
+    text-align: center;
+    max-width: 1500px;
+    margin: 0 auto;
+    scroll-margin-top: 70px;
+
+    &__button {
+        margin: 0 auto;
+        padding-bottom: 20px;
+
+        &__btn {
+            text-decoration: none;
+            margin: 0 30px;
+            border: none;
+            font-size: 24px;
+            background-color: white;
+            color: gray;
+
+            &:hover {
+                color: black;
+            }
+        }
+    }
+}
+
+.photo {
+    margin: 0;
+    width: 600px;
+}
+
+@media (max-width: 900px) {
+
+    .content {
+        scroll-margin-top: 90px;
+
+        &__button {
+    
+            &__btn {
+                margin: 0 10px;
+                font-size: 14px;
+            }
+        }
+
+        .photo {
+            margin: 0;
+            width: 300px;
+        }
+    }
+}
+
+@media (max-width: 900px) {
+
+    .content {
+        &__button {
+            &__btn {
+                margin: 0 5px;
+                font-size: 10px;
+            }
+        }
+    }
+}
