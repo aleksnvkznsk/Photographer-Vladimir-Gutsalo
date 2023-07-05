@@ -11,7 +11,7 @@ function Footer() {
             </div>
 
             <div className="aleks">
-                <a className="aleks__href" href="https://t.me/aleks_nvkz" target=" blank">сайт от Aleksandrov Developer</a>
+                <a className="aleks__href" href="https://aleksandrovdeveloper.ru" target=" blank">сайт от Aleksandrov Developer</a>
             </div>
         </>
     );
