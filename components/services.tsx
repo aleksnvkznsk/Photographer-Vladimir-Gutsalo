@@ -3,8 +3,8 @@ import '@/styles//services.scss';
 function Services() {
     return (
         <>
+         <h1 className="h1">Дополнительные услуги</h1>
             <div className="services">
-                <h1 className="h1">Дополнительные услуги</h1>
                 <div className="services__menu">
 
                     <div className="services__block">
