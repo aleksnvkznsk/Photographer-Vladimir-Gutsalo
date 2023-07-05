@@ -55,9 +55,9 @@
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 1000px) {
 
-    .nav__link {
-        font-size: 12px;
+    .header {
+        display: none;
     }
 }
