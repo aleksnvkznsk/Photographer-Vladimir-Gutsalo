@@ -6,11 +6,13 @@ import Price from "@/components/price";
 import Explanation from "@/components/explanation";
 import Services from "@/components/services";
 import Footer from "@/components/footer";
+import NavBar from "@/components/navbar";
 
 export default function Page() {
   return (
     <>
       <Header />
+      <NavBar />
       <Intro />
       <About />
       <Portfolio />
