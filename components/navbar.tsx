@@ -19,11 +19,11 @@ const NavBar = () => {
 
                                 <a className="container__nav__href" href="#home">Главная</a>
 
-                                <a className="container__nav__href" href="#">Обо мне</a>
+                                <a className="container__nav__href" href="#about">Обо мне</a>
 
-                                <a className="container__nav__href" href="#">Портфолио</a>
+                                <a className="container__nav__href" href="#pоrtfolio">Портфолио</a>
 
-                                <a className="container__nav__href" href="#">Прайс</a>
+                                <a className="container__nav__href" href="#price">Прайс</a>
                         </div>
                     )
                 }
